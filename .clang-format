@@ -1,0 +1,50 @@
+---
+Language: Cpp
+ColumnLimit: 100
+AccessModifierOffset: -2
+AlignAfterOpenBracket: Align
+AlignArrayOfStructures: Left
+AlignConsecutiveAssignments: true
+AlignConsecutiveBitFields: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
+AlignEscapedNewlines: Left
+AlignTrailingComments: Always
+AllowShortBlocksOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Inline
+AllowShortLoopsOnASingleLine: false
+BitFieldColonSpacing: After
+BreakConstructorInitializers: AfterColon
+CompactNamespaces: false
+Cpp11BracedListStyle: false
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: LogicalBlock
+FixNamespaceComments: false
+IncludeBlocks: Regroup
+InsertBraces: true
+IntegerLiteralSeparator:
+    Decimal: 3
+    DecimalMinDigits: 5
+NamespaceIndentation: Inner
+PointerAlignment: Left
+ReferenceAlignment: Left
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCtorInitializerColon: false
+SpaceBeforeInheritanceColon: false
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeSquareBrackets: false
+BreakAfterAttributes: Always
+QualifierAlignment: Custom
+QualifierOrder:
+    - friend
+    - inline
+    - static
+    - const
+    - constexpr
+    - type
+RemoveParentheses: MultipleParentheses
+SeparateDefinitionBlocks: Always
