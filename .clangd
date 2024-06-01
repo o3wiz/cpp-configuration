@@ -1,0 +1,34 @@
+Diagnostics:
+    ClangTidy:
+        Add:
+            - cppcoreguidelines-*
+
+InlayHints:
+    Enabled: Yes
+    ParameterNames: Yes
+    BlockEnd: No
+    Designators: No
+    DeducedTypes: No
+    TypeNameLimit: 20
+
+If:
+    PathMatch:
+        - .*\.cc
+        - .*\.cxx
+        - .*\.cpp
+        - .*\.hpp
+        - .*\.hh
+
+CompileFlags:
+    Add:
+        - -std=c++23
+
+---
+If:
+    PathMatch:
+        - .*\.c
+        - .*\.h
+
+CompileFlags:
+    Add:
+        - -std=c23
